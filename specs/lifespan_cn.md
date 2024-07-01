@@ -15,6 +15,7 @@
 以下是一个可能的协议实现：
 
 ```python
+
 async def app(scope, receive, send):
 if scope['type'] == 'lifespan':
 while True:
